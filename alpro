@@ -197,7 +197,7 @@ func inputdatapoke(poke *arrpoke, n *int) {
 		fmt.Scanln(&poke[*n].date[1])
 		fmt.Println("Year(yyyy)")
 		fmt.Scanln(&poke[*n].date[2])
-
+		fmt.Println("=================================================================================")
 		fmt.Println()
 		*n++
 		a++
@@ -315,6 +315,12 @@ func delete(poke *arrpoke, n *int) {
 	}
 
 	if idx != -1 {
+		fmt.Println("=================================================================================")
+		fmt.Println("Pokemon data found")
+		fmt.Println()
+		fmt.Println(poke[i-1])
+		fmt.Println("=================================================================================")
+		fmt.Println()
 		poke[i].number = 0
 		poke[i].name = "0"
 		poke[i].level = 0
@@ -443,8 +449,12 @@ func changepokedata(poke *arrpoke, n int) {
 	}
 
 	if idx != -1 {
-		fmt.Println()
 		fmt.Println("=================================================================================")
+		fmt.Println("Pokemon data found")
+		fmt.Println()
+		fmt.Println(poke[i-1])
+		fmt.Println("=================================================================================")
+		fmt.Println()
 		fmt.Println("Input to change the data")
 		fmt.Println()
 
@@ -502,6 +512,7 @@ func changepokedata(poke *arrpoke, n int) {
 		fmt.Println()
 		fmt.Println("Pokemon data successfully changed")
 	} else {
+		fmt.Println()
 		fmt.Println("Pokemon data not found")
 	}
 }
@@ -556,6 +567,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -572,6 +584,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -588,6 +601,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -608,6 +622,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -624,6 +639,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -640,6 +656,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -656,6 +673,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -671,6 +689,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -687,6 +706,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -703,6 +723,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -719,6 +740,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -735,6 +757,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -751,6 +774,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -767,6 +791,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -795,6 +820,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -811,6 +837,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
@@ -832,6 +859,7 @@ func searchpokemon(poke arrpoke, n int, t *bool) {
 			}
 		}
 		if !found {
+			fmt.Println("")
 			fmt.Println("No results found.")
 		}
 		fmt.Println("=================================================================================")
