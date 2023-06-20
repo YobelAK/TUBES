@@ -321,7 +321,6 @@ func delete(poke *arrpoke, n *int) {
 		fmt.Println("=================================================================================")
 		fmt.Println("Pokemon data found")
 		fmt.Println()
-		fmt.Println(poke[i-1])
 		fmt.Println("=================================================================================")
 		fmt.Println()
 		poke[i].number = 0
@@ -455,7 +454,6 @@ func changepokedata(poke *arrpoke, n int) {
 		fmt.Println("=================================================================================")
 		fmt.Println("Pokemon data found")
 		fmt.Println()
-		fmt.Println(poke[i-1])
 		fmt.Println("=================================================================================")
 		fmt.Println()
 		fmt.Println("Input to change the data")
