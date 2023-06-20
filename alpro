@@ -902,8 +902,11 @@ func listpokemon(poke arrpoke, n int) {
 		fmt.Println("Please input between 1-17")
 		fmt.Scanln(&input)
 	}
+	fmt.Println()
+	fmt.Println("=================================================================================")
 	fmt.Println("1. Descending")
 	fmt.Println("2. Ascending")
+	fmt.Println("Input :")
 	fmt.Scanln(&uji)
 	for uji < 1 || uji > 2 {
 		fmt.Println("Please input 1 or 2")
@@ -911,6 +914,8 @@ func listpokemon(poke arrpoke, n int) {
 	}
 	if uji == 1 {
 		if input == 1 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on number")
 			i = 1
 			for i <= n-1 {
@@ -930,6 +935,8 @@ func listpokemon(poke arrpoke, n int) {
 			print(poke, n)
 
 		} else if input == 2 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List based on name")
 			i = 1
 			for i <= n-1 {
@@ -948,6 +955,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 3 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on level")
 			i = 1
 			for i <= n-1 {
@@ -966,6 +975,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 4 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on gender")
 			i = 1
 			for i <= n-1 {
@@ -984,6 +995,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 5 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on type")
 			i = 1
 			for i <= n-1 {
@@ -1002,6 +1015,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 6 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on Tera type")
 			i = 1
 			for i <= n-1 {
@@ -1021,6 +1036,8 @@ func listpokemon(poke arrpoke, n int) {
 			print(poke, n)
 
 		} else if input == 7 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on hp")
 			i = 1
 			for i <= n-1 {
@@ -1039,6 +1056,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 8 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on attack")
 			i = 1
 			for i <= n-1 {
@@ -1057,6 +1076,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 9 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on defense")
 			i = 1
 			for i <= n-1 {
@@ -1075,6 +1096,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 10 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on speed")
 			i = 1
 			for i <= n-1 {
@@ -1093,6 +1116,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 11 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on sp.atk")
 			i = 1
 			for i <= n-1 {
@@ -1112,6 +1137,8 @@ func listpokemon(poke arrpoke, n int) {
 			print(poke, n)
 
 		} else if input == 12 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on sp.def")
 			i = 1
 			for i <= n-1 {
@@ -1129,6 +1156,8 @@ func listpokemon(poke arrpoke, n int) {
 				i = i + 1
 			}
 		} else if input == 13 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on Ability")
 			i = 1
 			for i <= n-1 {
@@ -1147,6 +1176,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 14 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on Held item")
 			i = 1
 			for i <= n-1 {
@@ -1165,6 +1196,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 15 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on catch location")
 			i = 1
 			for i <= n-1 {
@@ -1183,6 +1216,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 16 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on catch date")
 			i = 1
 			for i <= n-1 {
@@ -1206,6 +1241,8 @@ func listpokemon(poke arrpoke, n int) {
 
 	} else {
 		if input == 1 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on number")
 			i = 1
 			for i <= n-1 {
@@ -1225,6 +1262,8 @@ func listpokemon(poke arrpoke, n int) {
 			print(poke, n)
 
 		} else if input == 2 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List based on name")
 			i = 1
 			for i <= n-1 {
@@ -1243,6 +1282,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 3 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on level")
 			i = 1
 			for i <= n-1 {
@@ -1261,6 +1302,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 4 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on gender")
 			i = 1
 			for i <= n-1 {
@@ -1279,6 +1322,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 5 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on type")
 			i = 1
 			for i <= n-1 {
@@ -1297,6 +1342,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 6 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on Tera type")
 			i = 1
 			for i <= n-1 {
@@ -1316,6 +1363,8 @@ func listpokemon(poke arrpoke, n int) {
 			print(poke, n)
 
 		} else if input == 7 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on hp")
 			i = 1
 			for i <= n-1 {
@@ -1334,6 +1383,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 8 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on attack")
 			i = 1
 			for i <= n-1 {
@@ -1352,6 +1403,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 9 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on defense")
 			i = 1
 			for i <= n-1 {
@@ -1370,6 +1423,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 10 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on speed")
 			i = 1
 			for i <= n-1 {
@@ -1388,6 +1443,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 11 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on sp.atk")
 			i = 1
 			for i <= n-1 {
@@ -1407,6 +1464,8 @@ func listpokemon(poke arrpoke, n int) {
 			print(poke, n)
 
 		} else if input == 12 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on sp.def")
 			i = 1
 			for i <= n-1 {
@@ -1424,6 +1483,8 @@ func listpokemon(poke arrpoke, n int) {
 				i = i + 1
 			}
 		} else if input == 13 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on Ability")
 			i = 1
 			for i <= n-1 {
@@ -1442,6 +1503,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 14 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on Held item")
 			i = 1
 			for i <= n-1 {
@@ -1460,6 +1523,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 15 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on catch location")
 			i = 1
 			for i <= n-1 {
@@ -1478,6 +1543,8 @@ func listpokemon(poke arrpoke, n int) {
 			}
 			print(poke, n)
 		} else if input == 16 {
+			fmt.Println()
+			fmt.Println("=================================================================================")
 			fmt.Println("List base on catch date")
 			i = 1
 			for i <= n-1 {
