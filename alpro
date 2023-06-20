@@ -125,7 +125,8 @@ func inputdatapoke(poke *arrpoke, n *int) {
 		fmt.Println("Please enter a valid number:")
 		fmt.Scanln(&banyakpoke)
 	}
-
+	fmt.Println()
+	fmt.Println("=================================================================================")
 	b = *n + banyakpoke
 	fmt.Println("You have", 32-menentukanbox(b), "box left.")
 
