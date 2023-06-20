@@ -60,7 +60,6 @@ func main() {
 
 	}
 	fmt.Println("")
-	fmt.Println("=================================================================================")
 	fmt.Println("Bye - bye")
 }
 
@@ -88,6 +87,9 @@ func menu(input *int) {
 		fmt.Println("input your option :")
 		fmt.Scanln(input)
 	}
+	fmt.Println("=================================================================================")
+	fmt.Println()
+
 }
 
 func playmenu(input int) int {
